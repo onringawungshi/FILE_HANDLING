@@ -18,5 +18,9 @@
 #     i+=1
 # print (c)
 
-f=open("co.txt","a")
-f1=f.write("\nPython is my favourite programing language.")
+# f=open("co.txt","a")
+# f1=f.write("\nPython is my favourite programing language.")
+
+f=open("co.txt","r")
+f1=f.readlines()
+print(f1)
